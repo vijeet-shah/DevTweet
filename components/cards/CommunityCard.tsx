@@ -42,7 +42,7 @@ function CommunityCard({ id, name, username, imgUrl, bio, members }: Props) {
 
       <div className="flex items-center justify-between">
         <Link href={`/communities/${id}`}>
-          <Button size="sm" variant="primary">
+          <Button size="sm" >
             View Community
           </Button>
         </Link>
